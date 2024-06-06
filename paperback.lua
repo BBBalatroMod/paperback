@@ -17,7 +17,7 @@ PB_UTIL = require(SMODS.current_mod.path .. "/paperback-utils")
 
 -- Config: Enable or disable additional jokers here
 local CONFIG = {
-    joker_example = true,
+    joker_mismatched_sock = true,
 }
 
 for key, enabled in pairs(CONFIG) do
